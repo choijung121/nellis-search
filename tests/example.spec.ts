@@ -1,18 +1,11 @@
 import { test, expect } from '@playwright/test';
+import { NellisPage } from '../pageobject/NellisPage';
 
-test('has title', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+test('search for items', async ({ page }) => {
+  const nellisPage = new NellisPage(page);
+  await nellisPage.goto();
 
   // Expect a title "to contain" a substring.
-  await expect(page).toHaveTitle(/Playwright/);
-});
-
-test('get started link', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
-
-  // Click the get started link.
-  await page.getByRole('link', { name: 'Get started' }).click();
-
-  // Expects page to have a heading with the name of Installation.
-  await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
+  await expect(nellisPage.pageTitle).toBeVisible();
+  await nellisPage.searchForItem('laptop');
 });

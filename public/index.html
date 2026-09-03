@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+    <head><meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Auction Finder</title>
+        <link rel="stylesheet" href="/styles.css" />
+    </head>
+<body>
+    <main>
+        <section class="hero">
+            <p class="eyebrow">PLAYWRIGHT-POWERED SEARCH</p>
+            <h1>Find auction listings<br />without the busywork.</h1>
+            <p class="lede">Search Nellis Auction from one focused interface. Results are collected live when you submit a search.</p>
+            <form id="search-form">
+                <label class="sr-only" for="query">Item to find</label>
+                <input id="query" name="query" type="search" minlength="2" maxlength="100" placeholder="Try “cordless drill”" required autofocus />
+                <button type="submit">Search listings 
+                    <span aria-hidden="true">→</span>
+                </button>
+            </form>
+            <p class="note">Use responsibly: results are public listing links, and searches are rate-limited by the browser workflow.</p>
+        </section>
+        <section class="results-section" aria-live="polite">
+            <div class="results-heading">
+            <p id="status">Enter an item to begin.</p>
+            <span id="count">
+
+            </span>
+        </div>
+        <div id="results" class="results">
+
+        </div>
+    </section>
+</main>
+<template id="result-template">
+    <a class="card" target="_blank" rel="noreferrer">
+        <div class="thumbnail">
+            <img alt="" />
+            <span class="placeholder">AUCTION</span>
+        </div>
+        <div class="card-body">
+            <p class="source"></p>
+            <h2></h2>
+            <p class="open">View listing <span aria-hidden="true">↗</span>
+            </p>
+        </div>
+    </a>
+</template>
+<script src="/app.js"></script>
+</body>
+</html>

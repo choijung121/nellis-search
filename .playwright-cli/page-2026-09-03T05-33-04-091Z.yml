@@ -1,0 +1,57 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - paragraph [ref=e4]: PLAYWRIGHT-POWERED SEARCH
+    - heading "Find auction listings without the busywork." [level=1] [ref=e5]: Find auction listingswithout the busywork.
+    - paragraph [ref=e6]: Search Nellis Auction from one focused interface. Results are collected live when you submit a search.
+    - generic [ref=e7]:
+      - generic [ref=e8]: Item to find
+      - searchbox "Item to find" [ref=e9]: generator
+      - button "Search listings" [ref=e10] [cursor=pointer]: Search listings →
+    - paragraph [ref=e11]: "Use responsibly: results are public listing links, and searches are rate-limited by the browser workflow."
+  - generic [ref=e12]:
+    - generic [ref=e13]:
+      - paragraph [ref=e14]: Listings for “generator”
+      - generic [ref=e15]: 6 found
+    - generic [ref=e16]:
+      - link "AUCTION Sample data generator — sample auction listing 1 View listing" [ref=e17] [cursor=pointer]:
+        - /url: https://www.nellisauction.com/
+        - generic [ref=e18]: AUCTION
+        - generic [ref=e20]:
+          - paragraph [ref=e21]: Sample data
+          - heading "generator — sample auction listing 1" [level=2] [ref=e22]
+          - paragraph [ref=e23]: View listing ↗
+      - link "AUCTION Sample data generator — sample auction listing 2 View listing" [ref=e24] [cursor=pointer]:
+        - /url: https://www.nellisauction.com/
+        - generic [ref=e25]: AUCTION
+        - generic [ref=e27]:
+          - paragraph [ref=e28]: Sample data
+          - heading "generator — sample auction listing 2" [level=2] [ref=e29]
+          - paragraph [ref=e30]: View listing ↗
+      - link "AUCTION Sample data generator — sample auction listing 3 View listing" [ref=e31] [cursor=pointer]:
+        - /url: https://www.nellisauction.com/
+        - generic [ref=e32]: AUCTION
+        - generic [ref=e34]:
+          - paragraph [ref=e35]: Sample data
+          - heading "generator — sample auction listing 3" [level=2] [ref=e36]
+          - paragraph [ref=e37]: View listing ↗
+      - link "AUCTION Sample data generator — sample auction listing 4 View listing" [ref=e38] [cursor=pointer]:
+        - /url: https://www.nellisauction.com/
+        - generic [ref=e39]: AUCTION
+        - generic [ref=e41]:
+          - paragraph [ref=e42]: Sample data
+          - heading "generator — sample auction listing 4" [level=2] [ref=e43]
+          - paragraph [ref=e44]: View listing ↗
+      - link "AUCTION Sample data generator — sample auction listing 5 View listing" [ref=e45] [cursor=pointer]:
+        - /url: https://www.nellisauction.com/
+        - generic [ref=e46]: AUCTION
+        - generic [ref=e48]:
+          - paragraph [ref=e49]: Sample data
+          - heading "generator — sample auction listing 5" [level=2] [ref=e50]
+          - paragraph [ref=e51]: View listing ↗
+      - link "AUCTION Sample data generator — sample auction listing 6 View listing" [ref=e52] [cursor=pointer]:
+        - /url: https://www.nellisauction.com/
+        - generic [ref=e53]: AUCTION
+        - generic [ref=e55]:
+          - paragraph [ref=e56]: Sample data
+          - heading "generator — sample auction listing 6" [level=2] [ref=e57]
+          - paragraph [ref=e58]: View listing ↗
